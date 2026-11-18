@@ -335,8 +335,7 @@ if st.session_state.last_result is not None:
         </script>
         """,
         height=80,
-        key=f"voice_{result['number']}"
-    )
+        )
 
 # ---------------------------------
 # RECOGNITION HISTORY
